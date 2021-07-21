@@ -1,0 +1,266 @@
+<html>
+
+<head>
+    <title>My first page</title>
+</head>
+
+<body>
+    <p><b>HTML</b>, an initialisation of HyperText Markup Language, is the predominant markup language for web pages. It
+        provides a means to describe the structure of text-based information in a document - by denoting certaintext as
+        links, headings, paragraphs, lists, and so on - and to supplement that text with interactive forms, embedded
+        images and other objects. HTML is written in the form of tags, surrounded by angle brackets. HTNL can also
+        describe, to some degree, the apprearance and semantics of a document, and can include embedded scripting
+        language code (such as Java Script) which can affect the behaviour of web browsers and other HTML procesors.</p>
+    <p>Files and URLs containing HTML often have a .html or .htm filename extension.</p>
+    <p>"HTML" (2008, December 3). In <i>Wikipedia, the free encyclopedia.</i> Retrieved December 3, 2008, from <a href="https://en.wikipedia.org/wiki/HTML"> <source>"https://en.wikipedia.org/wiki/HTML" </a> </p>
+
+
+</body> 
+
+</html>
+
+<ul>
+    <li>Pancakes</li>
+    <li>Cheesburger</li>
+    <li>Avocado</li>
+    <LI>Brussel Sprouts</li>
+</ul>
+
+
+<ol>
+    <li>Pancakes</li>
+    <li>Cheesburger</li>
+    <li>Avocado</li>
+    <LI>Brussel Sprouts</li>
+</ol>
+
+<p><img border="0"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Froggy_cakes.jpg/432px-Froggy_cakes.jpg"
+        alt="Frog Cakes" height="200" align="center" width="250" /> This is a paragraph about frog cakes.</p>
+
+        <p>This will be displayed by the browser</p>
+<!-- This will not be displayed by the browser -->
+
+<table
+    <thead>
+          <tr>
+            <th>My</th>
+            <th>Title</th>
+            <th>Practice</th>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Sales</th>
+        <th>Revenue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1/1/2020</td>
+        <td>12</td>
+        <td>$900</td>
+      </tr>
+      <tr>
+        <td>2/1/2020</td>
+        <td>15</td>
+        <td>$1200</td>
+      </tr>
+    </tbody>
+    <tfooter>
+      <tr>
+        <td>Totals</td>
+        <td>27</td>
+        <td>$2100</td>
+      </tr>
+    </tfooter>
+  </table>
+
+  <html>
+  <head></head>
+<body>
+  <!-- Basic Version -->
+
+  <table>
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
+<html>
+  <head></head>
+<body>
+  <!-- Borders -->
+
+  <table border="1" width="500px">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
+<html>
+  <head></head>
+<body>
+  <!-- Cellpadding -->
+
+  <table border="1" cellpadding="5" width="900px">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
+<html>
+  <head></head>
+<body>
+  <!-- Cellspacing -->
+
+  <table border=6" cellspacing="10" cellpadding="10" width="400px">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
+<html>
+  <head></head>
+<body>
+  <!-- Colspans and Rowspans -->
+
+  <table border="4" cellspacing="5" cellpadding="5" width="800px">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4">a</td>
+        <td colspan="4">b</td>
+        <!-- One cell is missing here, because the cell before it will expand into this column. -->
+      </tr>
+      <tr>
+        <!-- One cell is missing here, because thE cell above is going to expand into it. -->
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
+<html>
+  <head></head>
+<body>
+  <!-- Widths -->
+
+
+
+  <table border="1" cellspacing="5" cellpadding="5" width="800px">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Individual cell widths are being set here. They could be set in any row - the browser will figure it out. -->
+        <td width="20%">a</td>
+        <td width="50%">b</td>
+        <td width="30%">c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+    </tbody>
+  </table>
+
+</body>
+</html>
